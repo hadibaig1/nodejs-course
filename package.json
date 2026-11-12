@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-course",
+  "version": "1.0.0",
+  "description": "Node.js course code",
+  "license": "ISC",
+  "author": "Hadi Baig",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file=.env server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
